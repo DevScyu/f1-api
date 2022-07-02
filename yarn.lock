@@ -42,6 +42,13 @@
     reflect-metadata "^0.1.12"
     tslib "^1.8.1"
 
+"@ovos-media/ts-transform-paths@^1.7.18-1":
+  version "1.7.18-1"
+  resolved "https://registry.yarnpkg.com/@ovos-media/ts-transform-paths/-/ts-transform-paths-1.7.18-1.tgz#654f777e9f54fe50b920639654790adc317ad49f"
+  integrity sha512-5uYtraYSWg1klaMYus3ouCOUUNzcI40pS0NCaw0PhoaPTimVfT3MV061ZLYR/4F14THqyofMjmCNcHgFrBX3AA==
+  dependencies:
+    "@zerollup/ts-helpers" "^1.7.18"
+
 "@sindresorhus/is@^0.14.0":
   version "0.14.0"
   resolved "https://registry.npmjs.org/@sindresorhus/is/-/is-0.14.0.tgz#9fb3a3cf3132328151f353de4632e01e52102bea"
@@ -72,13 +79,6 @@
   integrity sha512-S9zN+y+i5yN/evfWquzSO3lubqPXIsPQf6p9OiPMpRxDx/0totPLF39XoRw48Dav5dSvbIE8D2eAPpXXJxvKwg==
   dependencies:
     resolve "^1.12.0"
-
-"@zerollup/ts-transform-paths@^1.7.18":
-  version "1.7.18"
-  resolved "https://registry.npmjs.org/@zerollup/ts-transform-paths/-/ts-transform-paths-1.7.18.tgz#72f705c66690879e51d53c73dc76c4e2518a8c50"
-  integrity sha512-YPVUxvWQVzRx1OBN0Pmkd58+R9FcfUJuwTaPUSoi5rKxuXMtxevTXdfi0w5mEaIH8b0DfL+wg0wFDHiJE+S2zA==
-  dependencies:
-    "@zerollup/ts-helpers" "^1.7.18"
 
 abbrev@1:
   version "1.1.1"

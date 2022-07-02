@@ -24,13 +24,14 @@ export default class RaceScheduleParser extends Parser {
             raceScheduleData = data.Races[0];
         }
 
-        const { season, round, raceName: name, Circuit: circuit, date, time } = raceScheduleData;
+        const { season, round, raceName: name, Circuit: circuit, date, time, Qualifying: qualifying } = raceScheduleData;
         const raceSchedule: RaceSchedule = {
             season: parseInt(season, 10),
             round: parseInt(round, 10),
             name,
             circuit: circuitParser.parse(circuit),
             date: new Date(`${date}T${time}`),
+            qualifyingDate: new Date(`${qualifying.date}T${qualifying.time}`),
         };
 
         return raceSchedule;

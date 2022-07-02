@@ -51,6 +51,7 @@ export interface RaceSchedule {
     name: string;
     circuit: Circuit;
     date: Date;
+    qualifyingDate: Date;
 }
 
 export interface Circuit {

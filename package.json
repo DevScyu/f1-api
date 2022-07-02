@@ -1,6 +1,6 @@
 {
-    "name": "f1-api",
-    "version": "1.2.1",
+    "name": "f1-api-scyu",
+    "version": "1.2.2",
     "description": "A wrapper of Ergast API for Node.js. The easiest way to get data of Formula 1.",
     "keywords": [
         "f1",
@@ -15,13 +15,13 @@
         "build": "ttsc",
         "build:watch": "ttsc -w"
     },
-    "repository": "git@github.com:iverly/f1-api.git",
+    "repository": "git@github.com:DevScyu/f1-api.git",
     "author": "iverly <contact@iverly.net>",
     "license": "MIT",
     "devDependencies": {
+        "@ovos-media/ts-transform-paths": "^1.7.18-1",
         "@types/axios": "^0.14.0",
         "@types/node": "^16.7.13",
-        "@zerollup/ts-transform-paths": "^1.7.18",
         "ansi-regex": "5.0.1",
         "nodemon": "2.0.15",
         "tslint": "^6.1.3",
